@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'krysielIOS_Example' do
+  pod 'krysielIOS', :path => '../'
+
+  target 'krysielIOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
