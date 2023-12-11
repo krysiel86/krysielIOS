@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #  //최소 배포 타겟
   s.ios.deployment_target = '10.0'
 #  //소스파일 경로
-  s.source_files = 'iosTest/Classes/**/*'
+  s.source_files = 'krysielIOS/Classes/**/*'
 #  //현재 swift 버전
   s.swift_versions = '5.0'
 
