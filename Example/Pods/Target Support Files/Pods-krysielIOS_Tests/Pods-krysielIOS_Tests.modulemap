@@ -1,0 +1,6 @@
+framework module Pods_krysielIOS_Tests {
+  umbrella header "Pods-krysielIOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

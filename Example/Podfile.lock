@@ -1,0 +1,16 @@
+PODS:
+  - krysielIOS (0.1.0)
+
+DEPENDENCIES:
+  - krysielIOS (from `../`)
+
+EXTERNAL SOURCES:
+  krysielIOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  krysielIOS: cca16e2a0b99ef2711d7f9bd4597bcb8e809872e
+
+PODFILE CHECKSUM: d5b1b04383977af28e291b0e4872f2f3a45853e0
+
+COCOAPODS: 1.14.3

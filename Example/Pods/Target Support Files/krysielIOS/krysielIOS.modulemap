@@ -1,0 +1,6 @@
+framework module krysielIOS {
+  umbrella header "krysielIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

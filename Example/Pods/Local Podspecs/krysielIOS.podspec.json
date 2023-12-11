@@ -1,0 +1,22 @@
+{
+  "name": "krysielIOS",
+  "version": "0.1.0",
+  "summary": "A short description of krysielIOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/krysiel86/krysielIOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "krysiel86": "myoungin@tpmn.io"
+  },
+  "source": {
+    "git": "https://github.com/krysiel86/krysielIOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "krysielIOS/Classes/**/*"
+}

@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		181D1671C6F628AEA0378737 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		181D1671C6F628AEA0378737 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		19398A2A56FFE393C8A633E7 /* Pods-krysielIOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-krysielIOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-krysielIOS_Tests/Pods-krysielIOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3221F00704DFB9DBA5CC2E6F /* Pods-krysielIOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-krysielIOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-krysielIOS_Example/Pods-krysielIOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5918354250A392181504473D /* Pods-krysielIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-krysielIOS_Example.release.xcconfig"; path = "Target Support Files/Pods-krysielIOS_Example/Pods-krysielIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* krysielIOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = krysielIOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		730E6424084345959B1CA466 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		730E6424084345959B1CA466 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AB173BC3D150DA5E1EAFD437 /* Pods_krysielIOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_krysielIOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F6E099797178195D69C3ED /* Pods_krysielIOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_krysielIOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5093DFF2AEA40E38E896783 /* Pods-krysielIOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-krysielIOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-krysielIOS_Tests/Pods-krysielIOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EE7A81E8A69CE0C5807B93AB /* krysielIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = krysielIOS.podspec; path = ../krysielIOS.podspec; sourceTree = "<group>"; };
+		EE7A81E8A69CE0C5807B93AB /* krysielIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = krysielIOS.podspec; path = ../krysielIOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				19398A2A56FFE393C8A633E7 /* Pods-krysielIOS_Tests.debug.xcconfig */,
 				E5093DFF2AEA40E38E896783 /* Pods-krysielIOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = krysielIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = krysielIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
