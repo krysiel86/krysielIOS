@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 #  //원하는 라이브러리 이름
-  s.name             = 'iosTest'
+  s.name             = 'krysielIOS'
 #  //라이브러리 버전
   s.version          = '0.1.0'
  # //라이브러리 요약내용
