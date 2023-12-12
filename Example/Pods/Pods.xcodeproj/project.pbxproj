@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BC41F72B27069200B153EC /* qqq.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC41F62B27069200B153EC /* qqq.m */; };
+		04BC41FA2B2707A700B153EC /* aaa.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BC41F82B2707A700B153EC /* aaa.h */; };
+		04BC41FB2B2707A700B153EC /* aaa.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC41F92B2707A700B153EC /* aaa.m */; };
 		25878A9F4902F7C376AD10011B169DCD /* krysielIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DF9AB72BA01BCCBFC4DA7E3776BD3E /* krysielIOS-dummy.m */; };
 		3488645966F378660AA7C05FFEFA20CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		40711631545EA3379A15649E7DD82584 /* Pods-krysielIOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5FEF7EFA2CF092A4877CEB85CC40DD /* Pods-krysielIOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BC41F52B27068300B153EC /* qqq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qqq.h; sourceTree = "<group>"; };
+		04BC41F62B27069200B153EC /* qqq.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qqq.m; sourceTree = "<group>"; };
+		04BC41F82B2707A700B153EC /* aaa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aaa.h; sourceTree = "<group>"; };
+		04BC41F92B2707A700B153EC /* aaa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaa.m; sourceTree = "<group>"; };
 		0B9FA34796EA75AAE134DDBF7AE8FE38 /* Pods-krysielIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-krysielIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		222F3BE381866F0BC6842E432DE63831 /* Pods-krysielIOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-krysielIOS_Tests-Info.plist"; sourceTree = "<group>"; };
 		2C72A31A91FA63C83397C6BDA0D84CB2 /* krysielIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "krysielIOS-umbrella.h"; sourceTree = "<group>"; };
@@ -103,6 +110,10 @@
 		25EDFDDCE293E1A93BF4E186E19268CA /* krysielIOS */ = {
 			isa = PBXGroup;
 			children = (
+				04BC41F82B2707A700B153EC /* aaa.h */,
+				04BC41F92B2707A700B153EC /* aaa.m */,
+				04BC41F52B27068300B153EC /* qqq.h */,
+				04BC41F62B27069200B153EC /* qqq.m */,
 				34924023A4A9FC9CB298927E6306708D /* krysielIOS.swift */,
 				DE5442E7243B5A7F61A4A1492E266339 /* Pod */,
 				BED102E9F93D71E0C82D21CDC140832C /* Support Files */,
@@ -238,6 +249,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BC41FA2B2707A700B153EC /* aaa.h in Headers */,
 				F8F3839269430EB32F2470F7E5F7F0FB /* krysielIOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,8 +387,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BC41F72B27069200B153EC /* qqq.m in Sources */,
 				25878A9F4902F7C376AD10011B169DCD /* krysielIOS-dummy.m in Sources */,
 				5F4E029E5039ACD30EF6C451276AB2D5 /* krysielIOS.swift in Sources */,
+				04BC41FB2B2707A700B153EC /* aaa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

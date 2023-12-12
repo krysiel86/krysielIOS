@@ -9,4 +9,10 @@
 
 @implementation aaa
 
+
+-(void)sampleFunction {
+    
+}
+
+
 @end

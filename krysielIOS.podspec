@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 #  //원하는 라이브러리 이름
   s.name             = 'krysielIOS'
 #  //라이브러리 버전
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
  # //라이브러리 요약내용
   s.summary          = '이것은 인사를 출력해주는 라이브러리입니다!'
   #//깃허브 주소
@@ -21,3 +21,6 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
 
 end
+
+
+
