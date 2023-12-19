@@ -9,7 +9,7 @@
 import UIKit
 import PrebidMobile
 
-class banner : BannerBaseViewController, BannerViewDelegate{
+class BannerViewTest : BannerBaseViewController, BannerViewDelegate{
     
     fileprivate let storedImpDisplayBanner = "prebid-demo-banner-320-50"
     

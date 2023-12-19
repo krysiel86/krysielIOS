@@ -1,8 +1,7 @@
 {
   "name": "krysielIOS",
-  "version": "0.1.0",
-  "summary": "A short description of krysielIOS.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "이것은 인사를 출력해주는 라이브러리입니다!",
   "homepage": "https://github.com/krysiel86/krysielIOS",
   "license": {
     "type": "MIT",
@@ -13,10 +12,12 @@
   },
   "source": {
     "git": "https://github.com/krysiel86/krysielIOS.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "krysielIOS/Classes/**/*"
+  "source_files": "krysielIOS/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

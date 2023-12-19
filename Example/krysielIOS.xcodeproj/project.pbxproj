@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CC6D0E2B317A6900598D7C /* PrebidMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CC6D0D2B317A6900598D7C /* PrebidMobile.framework */; };
+		04CC6D0F2B317A6900598D7C /* PrebidMobile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04CC6D0D2B317A6900598D7C /* PrebidMobile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04CC6D1B2B318D1900598D7C /* BannerViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC6D1A2B318D1900598D7C /* BannerViewTest.swift */; };
+		04CC6D1D2B318D6900598D7C /* BannerBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC6D1C2B318D6900598D7C /* BannerBaseViewController.swift */; };
 		080EAED5BB123A6233A61D3D /* Pods_krysielIOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB173BC3D150DA5E1EAFD437 /* Pods_krysielIOS_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -27,7 +31,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		04CC6D102B317A6900598D7C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04CC6D0F2B317A6900598D7C /* PrebidMobile.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04CC6D0D2B317A6900598D7C /* PrebidMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PrebidMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CC6D1A2B318D1900598D7C /* BannerViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewTest.swift; sourceTree = "<group>"; };
+		04CC6D1C2B318D6900598D7C /* BannerBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerBaseViewController.swift; sourceTree = "<group>"; };
 		181D1671C6F628AEA0378737 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		19398A2A56FFE393C8A633E7 /* Pods-krysielIOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-krysielIOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-krysielIOS_Tests/Pods-krysielIOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3221F00704DFB9DBA5CC2E6F /* Pods-krysielIOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-krysielIOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-krysielIOS_Example/Pods-krysielIOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CC6D0E2B317A6900598D7C /* PrebidMobile.framework in Frameworks */,
 				080EAED5BB123A6233A61D3D /* Pods_krysielIOS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,10 +117,12 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				04CC6D1A2B318D1900598D7C /* BannerViewTest.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				04CC6D1C2B318D6900598D7C /* BannerBaseViewController.swift */,
 			);
 			name = "Example for krysielIOS";
 			path = krysielIOS;
@@ -153,6 +177,7 @@
 		D6A198957507B8465482B850 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04CC6D0D2B317A6900598D7C /* PrebidMobile.framework */,
 				D2F6E099797178195D69C3ED /* Pods_krysielIOS_Example.framework */,
 				AB173BC3D150DA5E1EAFD437 /* Pods_krysielIOS_Tests.framework */,
 			);
@@ -189,6 +214,7 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				04CC6D102B317A6900598D7C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,6 +357,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CC6D1B2B318D1900598D7C /* BannerViewTest.swift in Sources */,
+				04CC6D1D2B318D6900598D7C /* BannerBaseViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -524,6 +552,7 @@
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/krysielIOS_Example.app/krysielIOS_Example";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -542,6 +571,7 @@
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/krysielIOS_Example.app/krysielIOS_Example";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};

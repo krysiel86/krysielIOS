@@ -7,76 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04BC41F72B27069200B153EC /* qqq.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC41F62B27069200B153EC /* qqq.m */; };
-		04BC41FA2B2707A700B153EC /* aaa.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BC41F82B2707A700B153EC /* aaa.h */; };
-		04BC41FB2B2707A700B153EC /* aaa.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC41F92B2707A700B153EC /* aaa.m */; };
-		25878A9F4902F7C376AD10011B169DCD /* krysielIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DF9AB72BA01BCCBFC4DA7E3776BD3E /* krysielIOS-dummy.m */; };
 		3488645966F378660AA7C05FFEFA20CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		40711631545EA3379A15649E7DD82584 /* Pods-krysielIOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5FEF7EFA2CF092A4877CEB85CC40DD /* Pods-krysielIOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52E81BB3D95718252D1BA9AB812E0214 /* Pods-krysielIOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F2DEC7CD5D075EB1650C50C4EAA28 /* Pods-krysielIOS_Example-dummy.m */; };
-		5F4E029E5039ACD30EF6C451276AB2D5 /* krysielIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34924023A4A9FC9CB298927E6306708D /* krysielIOS.swift */; };
 		703C468C678362A9EB18ECFC0B6EA839 /* Pods-krysielIOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC00B6EFC19C494B62C10A518F66237E /* Pods-krysielIOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F8151302CCE8538BBA27BAAD7F61C2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B6CB1A49C9622906143A149E23F4FD98 /* krysielIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8D2B079E43DD20F96D29EB347389B0 /* krysielIOS-dummy.m */; };
+		B6E1B0064DA7E84CC104071763EE0D80 /* krysielIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419929AAC9B6BB9DC8F8CBC7CB046E6A /* krysielIOS.swift */; };
 		C5187BBA23D80E5919CD8265BFB688FE /* Pods-krysielIOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E42785B82E11207245741D7842FD109 /* Pods-krysielIOS_Tests-dummy.m */; };
 		F74CB375E5C5FA7B63213014F4487CD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F8F3839269430EB32F2470F7E5F7F0FB /* krysielIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C72A31A91FA63C83397C6BDA0D84CB2 /* krysielIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8F3839269430EB32F2470F7E5F7F0FB /* krysielIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BECC093D6C7A969233116F93EF70CFF /* krysielIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A6C9688071012FA6C036F5DE848D7841 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 96EDEE018C2BE646EEA64CA97D62562F;
-			remoteInfo = "Pods-krysielIOS_Example";
-		};
-		CE1802A131805344C5B2B93E3FF4B768 /* PBXContainerItemProxy */ = {
+		0115CC57BEFB131F8C5AA6BC4F4B32B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 95F685664A1584A5D8344B5EB8B60AC2;
 			remoteInfo = krysielIOS;
 		};
+		AA6E3860BC1DDA50C90F3118EE5916E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96EDEE018C2BE646EEA64CA97D62562F;
+			remoteInfo = "Pods-krysielIOS_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04BC41F52B27068300B153EC /* qqq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qqq.h; sourceTree = "<group>"; };
-		04BC41F62B27069200B153EC /* qqq.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qqq.m; sourceTree = "<group>"; };
-		04BC41F82B2707A700B153EC /* aaa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aaa.h; sourceTree = "<group>"; };
-		04BC41F92B2707A700B153EC /* aaa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaa.m; sourceTree = "<group>"; };
 		0B9FA34796EA75AAE134DDBF7AE8FE38 /* Pods-krysielIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-krysielIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		132B312DB211F268696AB6E7EA2D8D52 /* krysielIOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "krysielIOS-prefix.pch"; sourceTree = "<group>"; };
 		222F3BE381866F0BC6842E432DE63831 /* Pods-krysielIOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-krysielIOS_Tests-Info.plist"; sourceTree = "<group>"; };
-		2C72A31A91FA63C83397C6BDA0D84CB2 /* krysielIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "krysielIOS-umbrella.h"; sourceTree = "<group>"; };
 		2F5FEF7EFA2CF092A4877CEB85CC40DD /* Pods-krysielIOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-krysielIOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		34924023A4A9FC9CB298927E6306708D /* krysielIOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = krysielIOS.swift; path = krysielIOS/Classes/krysielIOS.swift; sourceTree = "<group>"; };
 		3824A116AC0A146F24A218B3FEDC5B2A /* Pods-krysielIOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-krysielIOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3BF0B7633CA10E2231F04A93E072E964 /* krysielIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = krysielIOS.modulemap; sourceTree = "<group>"; };
 		3CEC344490D04D14549C5383FCC1F5AA /* Pods-krysielIOS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-krysielIOS_Tests"; path = Pods_krysielIOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E42785B82E11207245741D7842FD109 /* Pods-krysielIOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-krysielIOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		419929AAC9B6BB9DC8F8CBC7CB046E6A /* krysielIOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = krysielIOS.swift; path = krysielIOS/Classes/krysielIOS.swift; sourceTree = "<group>"; };
 		49B6EE6581659546DD08FA2C6FBF1AD3 /* Pods-krysielIOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-krysielIOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E7F2DEC7CD5D075EB1650C50C4EAA28 /* Pods-krysielIOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-krysielIOS_Example-dummy.m"; sourceTree = "<group>"; };
 		4F07854EF2ACE9356C7656681C20E046 /* Pods-krysielIOS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-krysielIOS_Example"; path = Pods_krysielIOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AD1B984F46ADF27218039E38B85211 /* Pods-krysielIOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-krysielIOS_Example-Info.plist"; sourceTree = "<group>"; };
-		5D9B0D8C904263EF8DA39FF0D3A7A33D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5EF3DE0ADA91ABE68F194F5BB5D385CA /* krysielIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = krysielIOS.modulemap; sourceTree = "<group>"; };
+		5880202AE2A296F843856778775C1EEE /* krysielIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = krysielIOS.debug.xcconfig; sourceTree = "<group>"; };
 		69691093278B6435F9A48DEB6B2B9BA3 /* Pods-krysielIOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-krysielIOS_Example.modulemap"; sourceTree = "<group>"; };
+		6BECC093D6C7A969233116F93EF70CFF /* krysielIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "krysielIOS-umbrella.h"; sourceTree = "<group>"; };
+		6D8D2B079E43DD20F96D29EB347389B0 /* krysielIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "krysielIOS-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		767661DCCAB31D6E9441D48755D09CDF /* Pods-krysielIOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-krysielIOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E13A9BF7F0D2A4BF9C6B5A26881ADAA /* krysielIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = krysielIOS.release.xcconfig; sourceTree = "<group>"; };
 		810BCA5CD35E5796D245CA9B0948D0F9 /* krysielIOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = krysielIOS; path = krysielIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0B6FA15DD61261945BC8FD2FD69E7B4 /* krysielIOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "krysielIOS-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2460522089F79E2F1AC18690734E723 /* Pods-krysielIOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-krysielIOS_Tests.modulemap"; sourceTree = "<group>"; };
-		A5DF9AB72BA01BCCBFC4DA7E3776BD3E /* krysielIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "krysielIOS-dummy.m"; sourceTree = "<group>"; };
 		AE99F0E2B9114E21A16A5DA9739D4BBA /* Pods-krysielIOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-krysielIOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2E4752F29634BBC8AC936626200FA8D /* Pods-krysielIOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-krysielIOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B39B7BA807EB30725D366FDA77D4234F /* Pods-krysielIOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-krysielIOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B5903E3A3DA7B4E61E08453237F5E575 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B7D0B12A34183310B22DE3912C6314C4 /* krysielIOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "krysielIOS-prefix.pch"; sourceTree = "<group>"; };
+		B87FCE11D7D2F87C16F3CD04209B6252 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CD9049C00050C442A063C4307A4A265A /* Pods-krysielIOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-krysielIOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E2C30141B6A0A9661F0DE9BB339F9773 /* krysielIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = krysielIOS.release.xcconfig; sourceTree = "<group>"; };
-		E35524DBAD85D65E132D7A5D5ADE7FAA /* krysielIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = krysielIOS.debug.xcconfig; sourceTree = "<group>"; };
 		E5BC57558042B635CCB040420E58ACA8 /* Pods-krysielIOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-krysielIOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F1E62A3B49E9984C668637904D7752E0 /* krysielIOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = krysielIOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F8D96C25DFB756779EEB9E976BF05702 /* krysielIOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "krysielIOS-Info.plist"; sourceTree = "<group>"; };
 		FC00B6EFC19C494B62C10A518F66237E /* Pods-krysielIOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-krysielIOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FFDC3907C5CC47F33DE2626B96E97A92 /* krysielIOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = krysielIOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,19 +99,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		25EDFDDCE293E1A93BF4E186E19268CA /* krysielIOS */ = {
+		3FC107CDAC6A0FA42590B54B53D9DC15 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				04BC41F82B2707A700B153EC /* aaa.h */,
-				04BC41F92B2707A700B153EC /* aaa.m */,
-				04BC41F52B27068300B153EC /* qqq.h */,
-				04BC41F62B27069200B153EC /* qqq.m */,
-				34924023A4A9FC9CB298927E6306708D /* krysielIOS.swift */,
-				DE5442E7243B5A7F61A4A1492E266339 /* Pod */,
-				BED102E9F93D71E0C82D21CDC140832C /* Support Files */,
+				3BF0B7633CA10E2231F04A93E072E964 /* krysielIOS.modulemap */,
+				6D8D2B079E43DD20F96D29EB347389B0 /* krysielIOS-dummy.m */,
+				F8D96C25DFB756779EEB9E976BF05702 /* krysielIOS-Info.plist */,
+				132B312DB211F268696AB6E7EA2D8D52 /* krysielIOS-prefix.pch */,
+				6BECC093D6C7A969233116F93EF70CFF /* krysielIOS-umbrella.h */,
+				5880202AE2A296F843856778775C1EEE /* krysielIOS.debug.xcconfig */,
+				7E13A9BF7F0D2A4BF9C6B5A26881ADAA /* krysielIOS.release.xcconfig */,
 			);
-			name = krysielIOS;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/krysielIOS";
+			sourceTree = "<group>";
+		};
+		459A09757E3CC579B81CC3C719253923 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FFDC3907C5CC47F33DE2626B96E97A92 /* krysielIOS.podspec */,
+				B87FCE11D7D2F87C16F3CD04209B6252 /* LICENSE */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -147,21 +148,6 @@
 				3CEC344490D04D14549C5383FCC1F5AA /* Pods-krysielIOS_Tests */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BED102E9F93D71E0C82D21CDC140832C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5EF3DE0ADA91ABE68F194F5BB5D385CA /* krysielIOS.modulemap */,
-				A5DF9AB72BA01BCCBFC4DA7E3776BD3E /* krysielIOS-dummy.m */,
-				A0B6FA15DD61261945BC8FD2FD69E7B4 /* krysielIOS-Info.plist */,
-				B7D0B12A34183310B22DE3912C6314C4 /* krysielIOS-prefix.pch */,
-				2C72A31A91FA63C83397C6BDA0D84CB2 /* krysielIOS-umbrella.h */,
-				E35524DBAD85D65E132D7A5D5ADE7FAA /* krysielIOS.debug.xcconfig */,
-				E2C30141B6A0A9661F0DE9BB339F9773 /* krysielIOS.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/krysielIOS";
 			sourceTree = "<group>";
 		};
 		C10D22DC6ACFF8CBDD4401026A57CBC2 /* Pods-krysielIOS_Example */ = {
@@ -200,22 +186,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D477D9274E39340BF87A64169F2CC559 /* krysielIOS */ = {
+			isa = PBXGroup;
+			children = (
+				419929AAC9B6BB9DC8F8CBC7CB046E6A /* krysielIOS.swift */,
+				459A09757E3CC579B81CC3C719253923 /* Pod */,
+				3FC107CDAC6A0FA42590B54B53D9DC15 /* Support Files */,
+			);
+			name = krysielIOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		DBCE80A2D9F52A1C2F7B2299999917D4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				25EDFDDCE293E1A93BF4E186E19268CA /* krysielIOS */,
+				D477D9274E39340BF87A64169F2CC559 /* krysielIOS */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		DE5442E7243B5A7F61A4A1492E266339 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F1E62A3B49E9984C668637904D7752E0 /* krysielIOS.podspec */,
-				5D9B0D8C904263EF8DA39FF0D3A7A33D /* LICENSE */,
-				B5903E3A3DA7B4E61E08453237F5E575 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		EE5CE0CF007C184B7AC04CD61E95525A /* Pods-krysielIOS_Tests */ = {
@@ -249,7 +236,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BC41FA2B2707A700B153EC /* aaa.h in Headers */,
 				F8F3839269430EB32F2470F7E5F7F0FB /* krysielIOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +263,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8282440B984AF9571E60540E6D61D248 /* PBXTargetDependency */,
+				6452244AB27F93A0B49A17370E8BE1F2 /* PBXTargetDependency */,
 			);
 			name = "Pods-krysielIOS_Tests";
 			productName = Pods_krysielIOS_Tests;
@@ -289,7 +275,7 @@
 			buildConfigurationList = 4CEA13A4923C9305A2814748E8BF1281 /* Build configuration list for PBXNativeTarget "krysielIOS" */;
 			buildPhases = (
 				5873985A0C950CA41682D8436B519B71 /* Headers */,
-				2A97C2232AC9C6CDFF5714025C68DAF7 /* Sources */,
+				1E736977F5E535602CEDAB3FC9BE3593 /* Sources */,
 				433F5ABB4F1CEB9C2D179728283A4778 /* Frameworks */,
 				C6CAFCE5A03BFC780F9912C1F287BADE /* Resources */,
 			);
@@ -314,7 +300,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CAD3E39361D38CA059DE0BECFF8CD404 /* PBXTargetDependency */,
+				0F02085017F3EAB44EC6FD681519412F /* PBXTargetDependency */,
 			);
 			name = "Pods-krysielIOS_Example";
 			productName = Pods_krysielIOS_Example;
@@ -383,14 +369,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A97C2232AC9C6CDFF5714025C68DAF7 /* Sources */ = {
+		1E736977F5E535602CEDAB3FC9BE3593 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BC41F72B27069200B153EC /* qqq.m in Sources */,
-				25878A9F4902F7C376AD10011B169DCD /* krysielIOS-dummy.m in Sources */,
-				5F4E029E5039ACD30EF6C451276AB2D5 /* krysielIOS.swift in Sources */,
-				04BC41FB2B2707A700B153EC /* aaa.m in Sources */,
+				B6E1B0064DA7E84CC104071763EE0D80 /* krysielIOS.swift in Sources */,
+				B6CB1A49C9622906143A149E23F4FD98 /* krysielIOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,92 +389,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8282440B984AF9571E60540E6D61D248 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-krysielIOS_Example";
-			target = 96EDEE018C2BE646EEA64CA97D62562F /* Pods-krysielIOS_Example */;
-			targetProxy = A6C9688071012FA6C036F5DE848D7841 /* PBXContainerItemProxy */;
-		};
-		CAD3E39361D38CA059DE0BECFF8CD404 /* PBXTargetDependency */ = {
+		0F02085017F3EAB44EC6FD681519412F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = krysielIOS;
 			target = 95F685664A1584A5D8344B5EB8B60AC2 /* krysielIOS */;
-			targetProxy = CE1802A131805344C5B2B93E3FF4B768 /* PBXContainerItemProxy */;
+			targetProxy = 0115CC57BEFB131F8C5AA6BC4F4B32B9 /* PBXContainerItemProxy */;
+		};
+		6452244AB27F93A0B49A17370E8BE1F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-krysielIOS_Example";
+			target = 96EDEE018C2BE646EEA64CA97D62562F /* Pods-krysielIOS_Example */;
+			targetProxy = AA6E3860BC1DDA50C90F3118EE5916E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		192AF463CC6C7D7F7DDBB9138E2A2888 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49B6EE6581659546DD08FA2C6FBF1AD3 /* Pods-krysielIOS_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-krysielIOS_Tests/Pods-krysielIOS_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-krysielIOS_Tests/Pods-krysielIOS_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		262CB6CBD2905E97533DE6FD4CEFADF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2C30141B6A0A9661F0DE9BB339F9773 /* krysielIOS.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/krysielIOS/krysielIOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/krysielIOS/krysielIOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/krysielIOS/krysielIOS.modulemap";
-				PRODUCT_MODULE_NAME = krysielIOS;
-				PRODUCT_NAME = krysielIOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4AFC2BC05800295F704180052C3D7B40 /* Debug */ = {
+		13E1BF4B2F637DB791C24FF3995DF21A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B39B7BA807EB30725D366FDA77D4234F /* Pods-krysielIOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -502,7 +421,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-krysielIOS_Example/Pods-krysielIOS_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-krysielIOS_Example/Pods-krysielIOS_Example.modulemap";
@@ -519,166 +438,7 @@
 			};
 			name = Debug;
 		};
-		6BFCFC8F55556A3D511D663AE37A8851 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E35524DBAD85D65E132D7A5D5ADE7FAA /* krysielIOS.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/krysielIOS/krysielIOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/krysielIOS/krysielIOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/krysielIOS/krysielIOS.modulemap";
-				PRODUCT_MODULE_NAME = krysielIOS;
-				PRODUCT_NAME = krysielIOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		93364F06AE8EDB1431F600F49F890CBE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B9FA34796EA75AAE134DDBF7AE8FE38 /* Pods-krysielIOS_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-krysielIOS_Example/Pods-krysielIOS_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-krysielIOS_Example/Pods-krysielIOS_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B8ED1EA4370B1C2D4BF4134C12EF48C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 767661DCCAB31D6E9441D48755D09CDF /* Pods-krysielIOS_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-krysielIOS_Tests/Pods-krysielIOS_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-krysielIOS_Tests/Pods-krysielIOS_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -731,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -744,14 +504,245 @@
 			};
 			name = Debug;
 		};
+		36DB024003FE7826A0F55E56B5BF5E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B6EE6581659546DD08FA2C6FBF1AD3 /* Pods-krysielIOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-krysielIOS_Tests/Pods-krysielIOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-krysielIOS_Tests/Pods-krysielIOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38A867BFC6D57A4F6199779148CA6BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9FA34796EA75AAE134DDBF7AE8FE38 /* Pods-krysielIOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-krysielIOS_Example/Pods-krysielIOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-krysielIOS_Example/Pods-krysielIOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38C37D547BC0A0B1B984B53F4B026306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E13A9BF7F0D2A4BF9C6B5A26881ADAA /* krysielIOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/krysielIOS/krysielIOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/krysielIOS/krysielIOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/krysielIOS/krysielIOS.modulemap";
+				PRODUCT_MODULE_NAME = krysielIOS;
+				PRODUCT_NAME = krysielIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E91E9B942638A39C3F21E54D0D3E9794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5880202AE2A296F843856778775C1EEE /* krysielIOS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/krysielIOS/krysielIOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/krysielIOS/krysielIOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/krysielIOS/krysielIOS.modulemap";
+				PRODUCT_MODULE_NAME = krysielIOS;
+				PRODUCT_NAME = krysielIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBFCDAD0B4FE0CE2159545770B75E41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767661DCCAB31D6E9441D48755D09CDF /* Pods-krysielIOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-krysielIOS_Tests/Pods-krysielIOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-krysielIOS_Tests/Pods-krysielIOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -759,8 +750,8 @@
 		4CEA13A4923C9305A2814748E8BF1281 /* Build configuration list for PBXNativeTarget "krysielIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BFCFC8F55556A3D511D663AE37A8851 /* Debug */,
-				262CB6CBD2905E97533DE6FD4CEFADF1 /* Release */,
+				E91E9B942638A39C3F21E54D0D3E9794 /* Debug */,
+				38C37D547BC0A0B1B984B53F4B026306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -768,8 +759,8 @@
 		9BD0D2EE0D5B9DF7E205CE7C16878A87 /* Build configuration list for PBXNativeTarget "Pods-krysielIOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AFC2BC05800295F704180052C3D7B40 /* Debug */,
-				93364F06AE8EDB1431F600F49F890CBE /* Release */,
+				13E1BF4B2F637DB791C24FF3995DF21A /* Debug */,
+				38A867BFC6D57A4F6199779148CA6BB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -777,8 +768,8 @@
 		F53DB7B42354AD7747BB1A9609131197 /* Build configuration list for PBXNativeTarget "Pods-krysielIOS_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8ED1EA4370B1C2D4BF4134C12EF48C7 /* Debug */,
-				192AF463CC6C7D7F7DDBB9138E2A2888 /* Release */,
+				FBFCDAD0B4FE0CE2159545770B75E41B /* Debug */,
+				36DB024003FE7826A0F55E56B5BF5E96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
