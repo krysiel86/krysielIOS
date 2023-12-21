@@ -101,6 +101,8 @@ public class PrebidServerConnection: NSObject, PrebidServerConnectionProtocol, U
             return
         }
         
+        NSLog("post")
+        
         request.httpMethod = HTTPMethodPOST
         request.httpBody = data
         request.timeoutInterval = timeout
@@ -110,7 +112,7 @@ public class PrebidServerConnection: NSObject, PrebidServerConnectionProtocol, U
         let task = session.uploadTask(with: request, from: data) { [weak self] data, response, error in
             self?.proccessResponse(request, urlResponse: response, responseData: data, error: error, fullServerCallback: callback)
         }
-        
+   
         task.resume()
     }
     

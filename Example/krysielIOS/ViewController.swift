@@ -13,13 +13,17 @@ import PrebidMobile
 fileprivate let bannerBaseViewControllerNibName = "Main"
 
 
-class ViewController: UIViewController , BannerViewDelegate {
+class ViewController: UIViewController , BannerViewDelegate , InterstitialAdUnitDelegate {
 
     fileprivate let storedImpDisplayBanner = "prebid-demo-banner-320-50"
     
-    private var prebidBannerView: BannerView!
+    fileprivate let storedImpDisplayInterstitial = "prebid-demo-display-interstitial-320-480"
 
     
+    private var prebidBannerView: BannerView!
+
+    private var renderingInterstitial: InterstitialRenderingAdUnit!
+
     @IBOutlet weak var bannerView: UIView!
     
     
@@ -45,7 +49,10 @@ class ViewController: UIViewController , BannerViewDelegate {
         
         bannerView.constraints.first { $0.firstAttribute == .width }?.constant = adSize.width
         bannerView.constraints.first { $0.firstAttribute == .height }?.constant = adSize.height
-         
+    
+        createAd()
+
+        
         button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
 
      }
@@ -53,12 +60,11 @@ class ViewController: UIViewController , BannerViewDelegate {
     // 버튼 액션 메서드
     @IBAction func buttonTapped(_ sender: UIButton) {
         NSLog("buttonTapped")
-        // Storyboard에서 세그웨이를 사용하여 다음 ViewController로 이동
-        //           performSegue(withIdentifier: "BannerViewTest", sender: self)
-//        navigationController?.pushViewController("BannerViewTest", animated: true)
 
-        createAd() 
+//        createAd() 
         
+        createAdInterstitial()
+  
     }
     
     func createAd() {
@@ -80,6 +86,25 @@ class ViewController: UIViewController , BannerViewDelegate {
     
     func bannerViewPresentationController() -> UIViewController? {
         self
+    }
+    
+    func createAdInterstitial() {
+        print("createAd");
+        // 1. Create a InterstitialRenderingAdUnit
+        renderingInterstitial = InterstitialRenderingAdUnit(configID: storedImpDisplayInterstitial)
+        
+        // 2. Configure the InterstitialRenderingAdUnit
+        renderingInterstitial.adFormats = [.banner]
+        renderingInterstitial.delegate = self
+        
+        // 3. Load the interstitial ad
+        renderingInterstitial.loadAd()
+    }
+    
+    // MARK: - InterstitialAdUnitDelegate
+    
+    func interstitialDidReceiveAd(_ interstitial: InterstitialRenderingAdUnit) {
+        interstitial.show(from: self)
     }
     
  

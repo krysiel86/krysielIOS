@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
 #  //원하는 라이브러리 이름
   s.name             = 'krysielIOS'
 #  //라이브러리 버전
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
  # //라이브러리 요약내용
-  s.summary          = '이것은 인사를 출력해주는 라이브러리입니다!'
+  s.summary          = '이건 테스트입니다!!!'
   #//깃허브 주소
   s.homepage         = 'https://github.com/krysiel86/krysielIOS'
 #  //MIT 라이센스
