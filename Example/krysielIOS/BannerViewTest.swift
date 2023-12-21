@@ -7,44 +7,45 @@
 //
 
 import UIKit
-import PrebidMobile
+//import PrebidMobile
 
-class BannerViewTest : BannerBaseViewController, BannerViewDelegate{
+class BannerViewTest : ViewController {
     
     fileprivate let storedImpDisplayBanner = "prebid-demo-banner-320-50"
     
-    private var prebidBannerView: BannerView!
+//    private var prebidBannerView: BannerView!
     
     override func loadView() {
+        NSLog("BannerViewTest loadView()")
         
-        createAd()
-        
-    }
+//        createAd()
+         
+     }
     
-    func createAd(){
-        // 1. Create a BannerView
-        prebidBannerView = BannerView(frame: CGRect(origin: .zero, size: adSize), configID: storedImpDisplayBanner, adSize: adSize)
-        
-        // 2. Configure the BannerView
-        prebidBannerView.delegate = self
-        prebidBannerView.adFormat = .banner
-        prebidBannerView.videoParameters.placement = .InBanner
-        
-        // Add Prebid banner view to the app UI
-        bannerView.addSubview(prebidBannerView)
-        
-        // 3. Load the banner ad
-        prebidBannerView.loadAd()
-        
-    }
+//    func createAd(){
+//        // 1. Create a BannerView
+//        prebidBannerView = BannerView(frame: CGRect(origin: .zero, size: adSize), configID: storedImpDisplayBanner, adSize: adSize)
+//        
+//        // 2. Configure the BannerView
+//        prebidBannerView.delegate = self
+//        prebidBannerView.adFormat = .banner
+//        prebidBannerView.videoParameters.placement = .InBanner
+//        
+//        // Add Prebid banner view to the app UI
+//        bannerView.addSubview(prebidBannerView)
+//        
+//        // 3. Load the banner ad
+//        prebidBannerView.loadAd()
+//        
+//    }
     
     
-    func bannerViewPresentationController() -> UIViewController? {
-        self
-    }
-    
-    func bannerView(_ bannerView: BannerView, didFailToReceiveAdWith error: Error) {
-//        PrebidDemoLogger.shared.error("Banner view did fail to receive ad with error: \(error)")
-    }
+//    func bannerViewPresentationController() -> UIViewController? {
+//        self
+//    }
+//    
+//    func bannerView(_ bannerView: BannerView, didFailToReceiveAdWith error: Error) {
+////        PrebidDemoLogger.shared.error("Banner view did fail to receive ad with error: \(error)")
+//    }
     
 }

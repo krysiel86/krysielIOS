@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PrebidMobile
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+     
+        
+        // ===== INIT: Prebid
+        if CommandLine.arguments.contains("-uiTesting") {
+//            UIApplication.shared.getKeyWindow()?.layer.speed = 2
+            UIView.setAnimationsEnabled(false)
+        }
+        // Set account id and custom Prebid server URL
+        Prebid.shared.prebidServerAccountId = "0689a263-318d-448b-a3d4-b02e8a709d9d"
+        try! Prebid.shared.setCustomPrebidServer(url: "https://prebid-server-test-j.prebid.org/openrtb2/auction")
+        
+//        // Initialize Prebid SDK
+//        Prebid.initializeSDK(gadMobileAdsVersion: GADGetStringFromVersionNumber(GADMobileAds.sharedInstance().versionNumber)) { status, error in
+//            if let error = error {
+//                print("Initialization Error: \(error.localizedDescription)")
+//                return
+//            }
+//        }
+        
+        // ===== CONFIGURE: Prebid
+        
+        Targeting.shared.sourceapp = "PrebidDemoSwift"
+        
+        
+        
         return true
     }
 

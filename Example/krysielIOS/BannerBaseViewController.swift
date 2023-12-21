@@ -8,7 +8,7 @@
 
 import UIKit
 
-fileprivate let bannerBaseViewControllerNibName = "BannerBaseViewController"
+fileprivate let bannerBaseViewControllerNibName = "Main"
 
 /// Base controller, which provides banner controls, i.e. banner view
 class BannerBaseViewController: UIViewController {
@@ -20,6 +20,9 @@ class BannerBaseViewController: UIViewController {
     var adSize = CGSize(width: 320, height: 50)
     
     convenience init(adSize: CGSize) {
+        NSLog("BannerBaseViewController init")
+
+        
         self.init(nibName: bannerBaseViewControllerNibName, bundle: nil)
         self.adSize = adSize
     }
